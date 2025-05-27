@@ -8,21 +8,200 @@ from typing import Dict, List, Set, Tuple, Optional
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
 import torch
+from .abbreviation_database import MedicalAbbreviationDB
+from .abbreviation_api import MedicalAbbreviationAPI
 
 class MedicalContentProcessor:
-    def __init__(self, abbreviations_file: str = "data/medical_abbreviations.json"):
+    def __init__(self, abbreviations_file: str = "data/medical_abbreviations.json",
+                 use_database: bool = True,
+                 use_api: bool = True):
         self.chapters = []
         self.abbreviations = {}
         self.objectives = []
         self.embedding_model = None  # Load only when needed
-        
-        # Load known medical abbreviations
+        self.abbr_db = None
+        self.abbr_api = None
+        self.known_abbreviations = {}
         if Path(abbreviations_file).exists():
             with open(abbreviations_file, 'r', encoding='utf-8') as f:
                 self.known_abbreviations = json.load(f)
-        else:
-            self.known_abbreviations = {}
+        # Load ADAM abbreviation dictionary if available
+        self.adam_abbr = {}
+        adam_path = Path("data/ADAM_abbr.json")
+        if adam_path.exists():
+            with open(adam_path, encoding="utf-8") as f:
+                self.adam_abbr = json.load(f)
+
+        # <<< MOVE THIS BLOCK TO THE TOP OF __init__ >>>
+        self.slide_type_patterns = {
+            'title': {
+                'patterns': [
+                    r'^\s*$',  # Empty or minimal text
+                    r'^[^.!?]{1,100}$',  # Short text without sentences
+                ],
+                'keywords': [],
+                'max_words': 20,
+                'priority': 1
+            },
+            'disclosure': {
+                'patterns': [
+                    r'disclos',
+                    r'conflict\s+of\s+interest',
+                    r'financial\s+relationship',
+                    r'consulting\s+fee',
+                    r'speaker\s+bureau',
+                    r'advisory\s+board'
+                ],
+                'keywords': ['disclosure', 'conflict', 'financial', 'consulting'],
+                'priority': 2
+            },
+            'objectives': {
+                'patterns': [
+                    r'learning\s+objectives?',
+                    r'objectives?\s+(?:of|for)?\s+this',
+                    r'(?:by|at)\s+the\s+end\s+of\s+this',
+                    r'participants?\s+will\s+(?:be\s+able\s+to|learn)',
+                    r'goals?\s+(?:of|for)?\s+this'
+                ],
+                'keywords': ['objective', 'goal', 'learn', 'understand'],
+                'priority': 3
+            },
+            'patient_case': {
+                'patterns': [
+                    r'patient\s+(?:case|presentation)',
+                    r'case\s+(?:study|presentation|report)',
+                    r'\d+[-\s]?year[-\s]?old\s+(?:male|female|man|woman|patient)',
+                    r'(?:presenting|presented)\s+with',
+                    r'chief\s+complaint',
+                    r'history\s+of\s+present\s+illness',
+                    r'past\s+medical\s+history',
+                    r'medications?',
+                    r'allergies?'
+                ],
+                'keywords': ['patient', 'case', 'year-old', 'presented', 'history', 'complaint'],
+                'priority': 4
+            },
+            'clinical_data': {
+                'patterns': [
+                    r'(?:clinical|study)\s+(?:trial|data|results)',
+                    r'phase\s+[IVX123]',
+                    r'efficacy',
+                    r'safety',
+                    r'adverse\s+events?',
+                    r'statistical\s+analysis',
+                    r'p[\s-]?value',
+                    r'confidence\s+interval',
+                    r'hazard\s+ratio',
+                    r'endpoint'
+                ],
+                'keywords': ['trial', 'study', 'efficacy', 'safety', 'endpoint', 'analysis'],
+                'priority': 5
+            },
+            'treatment': {
+                'patterns': [
+                    r'treatment\s+(?:options?|recommendations?|guidelines?)',
+                    r'management',
+                    r'therapy',
+                    r'dosing',
+                    r'administration',
+                    r'mechanism\s+of\s+action',
+                    r'pharmacokinetics?',
+                    r'drug\s+interaction'
+                ],
+                'keywords': ['treatment', 'therapy', 'management', 'dosing', 'drug'],
+                'priority': 6
+            },
+            'conclusion': {
+                'patterns': [
+                    r'conclusions?',
+                    r'summary',
+                    r'key\s+(?:points?|takeaways?|messages?)',
+                    r'in\s+(?:conclusion|summary)',
+                    r'take[\s-]?home\s+messages?'
+                ],
+                'keywords': ['conclusion', 'summary', 'key points', 'takeaway'],
+                'priority': 7
+            },
+            'references': {
+                'patterns': [
+                    r'references?',
+                    r'bibliography',
+                    r'citations?',
+                    r'sources?',
+                    r'\d+\.\s+[A-Z][a-zA-Z]+.*\d{4}',  # Citation format
+                    r'doi:\s*\S+',
+                    r'https?://\S+'
+                ],
+                'keywords': ['reference', 'bibliography', 'citation'],
+                'priority': 8
+            },
+            'questions': {
+                'patterns': [
+                    r'questions?\??',
+                    r'q\s*&\s*a',
+                    r'discussion',
+                    r'thank\s+you',
+                    r'contact\s+(?:information|me|us)'
+                ],
+                'keywords': ['question', 'thank you', 'contact', 'discussion'],
+                'priority': 9
+            }
+        }
+        # <<< END MOVE >>>
+
+        if use_database:
+            try:
+                self.abbr_db = MedicalAbbreviationDB()
+                stats = self.abbr_db.get_statistics()
+                print(f"   Loaded abbreviation database: {stats['total_abbreviations']} entries")
+            except Exception as e:
+                print(f"   Warning: Could not load abbreviation database: {e}")
+
+        if use_api:
+            try:
+                self.abbr_api = MedicalAbbreviationAPI()
+                print("   Initialized medical abbreviation API handler")
+            except Exception as e:
+                print(f"   Warning: Could not initialize abbreviation API: {e}")
+    def extract_abbreviations(self, content: Dict) -> Dict:
+        """Enhanced abbreviation extraction with database/API lookup"""
+        found_abbreviations = {}
+        all_abbreviations_in_text = set()
+
+        print(f"\n   Looking up {len(all_abbreviations_in_text)} potential abbreviations...")
         
+        # Bulk database lookup
+        if self.abbr_db:
+            db_results = self.abbr_db.bulk_lookup(list(all_abbreviations_in_text))
+            
+            for abbr, result in db_results.items():
+                if abbr not in found_abbreviations and result['found']:
+                    # Use the first definition
+                    found_abbreviations[abbr] = result['definitions'][0]
+                    if len(result['definitions']) > 1:
+                        found_abbreviations[abbr] += f" (and {len(result['definitions'])-1} other definitions)"
+        
+        # For still undefined abbreviations, try API
+        undefined = [abbr for abbr in all_abbreviations_in_text 
+                    if abbr not in found_abbreviations]
+        
+        if undefined and self.abbr_api:
+            print(f"   Checking API for {len(undefined)} undefined abbreviations...")
+            
+            for abbr in undefined[:10]:  # Limit API calls
+                if self._is_valid_medical_abbreviation(abbr):
+                    api_result = self.abbr_api.lookup_multiple_sources(abbr)
+                    if api_result['found']:
+                        found_abbreviations[abbr] = api_result['definitions'][0]
+                    else:
+                        found_abbreviations[abbr] = "(Not found in medical databases)"
+        
+        # Mark remaining as undefined
+        for abbr in all_abbreviations_in_text:
+            if abbr not in found_abbreviations and self._is_valid_medical_abbreviation(abbr):
+                found_abbreviations[abbr] = "(Definition not found - please verify)"
+        
+        return found_abbreviations
         # Define slide type patterns
         self.slide_type_patterns = {
             'title': {
@@ -442,8 +621,12 @@ class MedicalContentProcessor:
         
         # Add known medical abbreviations that appear in text
         for abbr in all_abbreviations_in_text:
-            if abbr not in found_abbreviations and abbr in self.known_abbreviations:
-                found_abbreviations[abbr] = self.known_abbreviations[abbr]
+            if abbr not in found_abbreviations:
+                if abbr in self.known_abbreviations:
+                    found_abbreviations[abbr] = self.known_abbreviations[abbr]
+                elif abbr in self.adam_abbr:
+                    defs = self.adam_abbr[abbr]
+                    found_abbreviations[abbr] = defs[0] if isinstance(defs, list) else defs
         
         # For undefined abbreviations, attempt to lookup or mark as undefined
         undefined_abbrs = []

@@ -3,11 +3,13 @@ Generate Word document from processed content
 """
 
 from docx import Document
-from docx.shared import Inches
+from docx.shared import Inches, RGBColor
 from pathlib import Path
 from typing import Dict, List
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.enum.text import WD_COLOR_INDEX
+import re
 
 def set_cell_grey(cell, hex_color="D9D9D9"):
     """Set a very light grey background for a cell."""
@@ -16,6 +18,24 @@ def set_cell_grey(cell, hex_color="D9D9D9"):
     shd = OxmlElement('w:shd')
     shd.set(qn('w:fill'), hex_color)
     tcPr.append(shd)
+
+def highlight_abbreviations(paragraph, abbreviations):
+    """Highlight all abbreviations in the paragraph in yellow."""
+    text = paragraph.text
+    paragraph.clear()
+    last_idx = 0
+    abbr_pattern = r'\b(' + '|'.join(map(re.escape, abbreviations)) + r')\b'
+    for match in re.finditer(abbr_pattern, text):
+        # Add text before abbreviation
+        if match.start() > last_idx:
+            paragraph.add_run(text[last_idx:match.start()])
+        # Add highlighted abbreviation
+        run = paragraph.add_run(match.group(0))
+        run.font.highlight_color = WD_COLOR_INDEX.YELLOW
+        last_idx = match.end()
+    # Add remaining text
+    if last_idx < len(text):
+        paragraph.add_run(text[last_idx:])
 
 class StoryboardGenerator:
     def __init__(self, template_path=None):
@@ -90,8 +110,8 @@ class StoryboardGenerator:
         
         self.doc.add_page_break()
     
-    def create_content_table(self, slide_data: Dict, chapter: str = "", subchapter: str = "", references: List[str] = None):
-        """Create content table for a slide"""
+    def create_content_table(self, slide_data: Dict, chapter: str = "", subchapter: str = "", references: List[str] = None, abbreviations: Dict[str, str] = None):
+        """Create content table for a slide, highlighting abbreviations in yellow."""
         table = self.doc.add_table(rows=8, cols=2)
         table.style = 'Table Grid'
         
@@ -110,7 +130,13 @@ class StoryboardGenerator:
         for idx, (label, content) in enumerate(rows_data):
             row = table.rows[idx]
             row.cells[0].text = label
-            row.cells[1].text = content
+            # Highlight abbreviations in the 'Text' row only
+            if label == "Text" and abbreviations:
+                p = row.cells[1].paragraphs[0]
+                p.add_run(content)  # Add text first
+                highlight_abbreviations(p, abbreviations.keys())
+            else:
+                row.cells[1].text = content
             set_cell_grey(row.cells[0])  # Set grey background for the label cell
 
         self.doc.add_paragraph()  # Add spacing
@@ -150,13 +176,13 @@ def generate_storyboard(structure: Dict, content: Dict, references: Dict, output
         for slide_num in chapter.get('slides', []):
             slide_data = content['slides'][slide_num - 1]
             slide_refs = references.get(slide_num, [])
-            generator.create_content_table(slide_data, current_chapter, "", slide_refs)
+            generator.create_content_table(slide_data, current_chapter, "", slide_refs, abbreviations)
         for subchapter in chapter.get('subchapters', []):
             current_subchapter = subchapter['title']
             for slide_num in subchapter.get('slides', []):
                 slide_data = content['slides'][slide_num - 1]
                 slide_refs = references.get(slide_num, [])
-                generator.create_content_table(slide_data, current_chapter, current_subchapter, slide_refs)
+                generator.create_content_table(slide_data, current_chapter, current_subchapter, slide_refs, abbreviations)
     
     # Save the document
     generator.save(output_path)

@@ -98,13 +98,7 @@ def convert_pptx_to_storyboard(
             if slide_num <= len(content['slides']):
                 slide_data = content['slides'][slide_num - 1]
                 slide_refs = references.get(slide_num, [])
-                
-                # Add slide type as a note
-                slide_type = structure['slide_types'].get(slide_num, 'content')
-                if slide_type != 'content':
-                    generator.doc.add_paragraph(f"[{slide_type.replace('_', ' ').title()} Slide]", style='Intense Quote')
-                
-                generator.create_content_table(slide_data, current_chapter, "", slide_refs)
+                generator.create_content_table(slide_data, current_chapter, "", slide_refs, abbreviations)
                 added_slides.add(slide_num)
         
         # Add subchapter slides
@@ -118,8 +112,7 @@ def convert_pptx_to_storyboard(
                 if slide_num <= len(content['slides']) and slide_num not in added_slides:
                     slide_data = content['slides'][slide_num - 1]
                     slide_refs = references.get(slide_num, [])
-                    generator.create_content_table(slide_data, current_chapter, 
-                                                 current_subchapter, slide_refs)
+                    generator.create_content_table(slide_data, current_chapter, current_subchapter, slide_refs, abbreviations)
                     added_slides.add(slide_num)
 
     # Save document
