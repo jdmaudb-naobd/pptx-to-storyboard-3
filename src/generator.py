@@ -90,7 +90,7 @@ class StoryboardGenerator:
         
         self.doc.add_page_break()
     
-    def create_content_table(self, slide_data: Dict, chapter: str = "", subchapter: str = ""):
+    def create_content_table(self, slide_data: Dict, chapter: str = "", subchapter: str = "", references: List[str] = None):
         """Create content table for a slide"""
         table = self.doc.add_table(rows=8, cols=2)
         table.style = 'Table Grid'
@@ -103,7 +103,7 @@ class StoryboardGenerator:
             ("Media/Images", f"{len(slide_data.get('shapes', []))} images" if slide_data.get('shapes') else "None"),
             ("Visual Details", "See slide"),
             ("Interactivity Details", "None"),
-            ("References", ""),
+            ("References", "; ".join(references) if references else ""),
             ("Extra Details/Settings", "")
         ]
         
@@ -112,10 +112,51 @@ class StoryboardGenerator:
             row.cells[0].text = label
             row.cells[1].text = content
             set_cell_grey(row.cells[0])  # Set grey background for the label cell
-        
+
         self.doc.add_paragraph()  # Add spacing
     
     def save(self, output_path: str):
         """Save the document"""
         self.doc.save(output_path)
         print(f"Storyboard saved to {output_path}")
+
+def generate_storyboard(structure: Dict, content: Dict, references: Dict, output_path: str, title: str = "Storyboard"):
+    """Generate the storyboard document"""
+    generator = StoryboardGenerator()
+    generator.create_title_page(title)
+    
+    # Create Table of Contents
+    generator.create_contents_table(structure)
+    
+    # Create Abbreviations table
+    abbreviations = {  # Example abbreviations, replace with actual data
+        "AI": "Artificial Intelligence",
+        "ML": "Machine Learning",
+        "NLP": "Natural Language Processing"
+    }
+    generator.create_abbreviations_table(abbreviations)
+    
+    # Create Learning Objectives section
+    objectives = [
+        "Understand the basics of AI",
+        "Learn about machine learning algorithms",
+        "Get introduced to natural language processing"
+    ]
+    generator.create_objectives_section(objectives)
+    
+    # Add content for each chapter and subchapter
+    for chapter in structure.get('chapters', []):
+        current_chapter = chapter['title']
+        for slide_num in chapter.get('slides', []):
+            slide_data = content['slides'][slide_num - 1]
+            slide_refs = references.get(slide_num, [])
+            generator.create_content_table(slide_data, current_chapter, "", slide_refs)
+        for subchapter in chapter.get('subchapters', []):
+            current_subchapter = subchapter['title']
+            for slide_num in subchapter.get('slides', []):
+                slide_data = content['slides'][slide_num - 1]
+                slide_refs = references.get(slide_num, [])
+                generator.create_content_table(slide_data, current_chapter, current_subchapter, slide_refs)
+    
+    # Save the document
+    generator.save(output_path)

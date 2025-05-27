@@ -42,10 +42,12 @@ def convert_pptx_to_storyboard(
     structure = processor.identify_structure(content)
     abbreviations = processor.extract_abbreviations(content)
     objectives = processor.extract_objectives(content)
+    references = processor.extract_references(content)
 
     print(f"   Found {len(structure.get('chapters', []))} chapters")
     print(f"   Found {len(abbreviations)} abbreviations")
     print(f"   Found {len(objectives)} objectives")
+    print(f"   Found {len(references)} references")
 
     # Debug: Print total slides and breakdown by chapter and subchapter
     print(f"Total slides in content: {len(content['slides'])}")

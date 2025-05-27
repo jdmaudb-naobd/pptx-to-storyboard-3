@@ -142,6 +142,23 @@ class ContentProcessor:
                             objectives.append(text)
         return objectives
     
+    def extract_references(self, content: Dict) -> Dict[int, list]:
+        """
+        Extract references (URLs, DOIs, or citation-like text) from each slide.
+        Returns a dict: {slide_number: [references]}
+        """
+        reference_pattern = re.compile(
+            r'(https?://\S+|doi:\S+|(?:[A-Z][a-z]+ et al\., \d{4}))'
+        )
+        slide_references = {}
+        for slide in content["slides"]:
+            refs = []
+            for text_item in slide["texts"]:
+                refs += reference_pattern.findall(text_item["text"])
+            if refs:
+                slide_references[slide["slide_number"]] = refs
+        return slide_references
+    
     def _is_chapter_slide(self, text: str) -> bool:
         """Check if slide represents a chapter"""
         chapter_patterns = [
@@ -184,12 +201,10 @@ class ContentProcessor:
         all_text = " ".join(all_texts)
         possible_abbrs = set(re.findall(r'\b([A-Z]{2,})\b', all_text))
 
-        # Get embeddings for all sentences
-        sentence_embeddings = self.embedding_model.encode(all_texts, convert_to_tensor=True)
-
         abbr_defs = {}
+        sentence_embeddings = self.embedding_model.encode(all_texts, convert_to_tensor=True)
+        # Get embeddings for all sentences
         for abbr in possible_abbrs:
-            # For each abbreviation, find the sentence most similar to "Definition of ABBR"
             query = f"Definition of {abbr}"
             query_emb = self.embedding_model.encode(query, convert_to_tensor=True)
             cos_scores = util.cos_sim(query_emb, sentence_embeddings)[0]
@@ -197,6 +212,4 @@ class ContentProcessor:
             best_sentence = all_texts[best_idx]
             abbr_defs[abbr] = best_sentence
 
-
-        return abbr_defs
         return abbr_defs
