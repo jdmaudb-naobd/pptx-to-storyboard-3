@@ -1,0 +1,25 @@
+import os
+import glob
+
+# Ensure 'input' and 'output' folders exist
+os.makedirs('input', exist_ok=True)
+os.makedirs('output', exist_ok=True)
+
+def process_pptx_file(input_path, output_path):
+    # ...existing code to process a single pptx and generate docx...
+    pass  # Replace with your actual processing function
+
+def main():
+    pptx_files = glob.glob(os.path.join('input', '*.pptx'))
+    if not pptx_files:
+        print("No PPTX files found in 'input' folder.")
+        return
+
+    for pptx_file in pptx_files:
+        filename = os.path.splitext(os.path.basename(pptx_file))[0]
+        output_docx = os.path.join('output', f"{filename}.docx")
+        print(f"Processing {pptx_file} -> {output_docx}")
+        process_pptx_file(pptx_file, output_docx)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,24 @@
+{
+  "FDA": "Food and Drug Administration",
+  "EMA": "European Medicines Agency",
+  "WHO": "World Health Organization",
+  "CDC": "Centers for Disease Control and Prevention",
+  "NIH": "National Institutes of Health",
+  "ICH": "International Council for Harmonisation",
+  "GCP": "Good Clinical Practice",
+  "SOP": "Standard Operating Procedure",
+  "QA": "Quality Assurance",
+  "QC": "Quality Control"
+}
+{
+  "IRB": "Institutional Review Board",
+  "IND": "Investigational New Drug",
+  "NDA": "New Drug Application",
+  "BLA": "Biologics License Application",
+  "CTD": "Common Technical Document",
+  "SMA": "Statistical Methods and Analysis",
+  "PK": "Pharmacokinetics",
+  "PD": "Pharmacodynamics",
+  "AE": "Adverse Event",
+  "SAE": "Serious Adverse Event"
+}
