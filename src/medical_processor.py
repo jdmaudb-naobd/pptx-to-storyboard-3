@@ -10,6 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 from .abbreviation_database import MedicalAbbreviationDB
 from .abbreviation_api import MedicalAbbreviationAPI
+from .utils import extract_abbreviations_from_text
 
 class MedicalContentProcessor:
     def __init__(self, abbreviations_file: str = "data/medical_abbreviations.json",
@@ -166,41 +167,18 @@ class MedicalContentProcessor:
     def extract_abbreviations(self, content: Dict) -> Dict:
         """Enhanced abbreviation extraction with database/API lookup"""
         found_abbreviations = {}
-        all_abbreviations_in_text = set()
+        medical_patterns = [
+            (r'([A-Za-z][A-Za-z\s\-]+?)\s*\(([A-Z][A-Z0-9\-]{1,})\)', 'term_first'),
+            (r'([A-Z][A-Z0-9\-]{1,})\s*\(([A-Za-z][A-Za-z\s\-]+?)\)', 'abbr_first'),
+            (r'([A-Z][A-Z0-9\-]{1,})\s*[=:]\s*([A-Za-z][A-Za-z\s\-]+)', 'abbr_equals')
+        ]
 
-        print(f"\n   Looking up {len(all_abbreviations_in_text)} potential abbreviations...")
-        
-        # Bulk database lookup
-        if self.abbr_db:
-            db_results = self.abbr_db.bulk_lookup(list(all_abbreviations_in_text))
-            
-            for abbr, result in db_results.items():
-                if abbr not in found_abbreviations and result['found']:
-                    # Use the first definition
-                    found_abbreviations[abbr] = result['definitions'][0]
-                    if len(result['definitions']) > 1:
-                        found_abbreviations[abbr] += f" (and {len(result['definitions'])-1} other definitions)"
-        
-        # For still undefined abbreviations, try API
-        undefined = [abbr for abbr in all_abbreviations_in_text 
-                    if abbr not in found_abbreviations]
-        
-        if undefined and self.abbr_api:
-            print(f"   Checking API for {len(undefined)} undefined abbreviations...")
-            
-            for abbr in undefined[:10]:  # Limit API calls
-                if self._is_valid_medical_abbreviation(abbr):
-                    api_result = self.abbr_api.lookup_multiple_sources(abbr)
-                    if api_result['found']:
-                        found_abbreviations[abbr] = api_result['definitions'][0]
-                    else:
-                        found_abbreviations[abbr] = "(Not found in medical databases)"
-        
-        # Mark remaining as undefined
-        for abbr in all_abbreviations_in_text:
-            if abbr not in found_abbreviations and self._is_valid_medical_abbreviation(abbr):
-                found_abbreviations[abbr] = "(Definition not found - please verify)"
-        
+        for slide in content["slides"]:
+            for text_item in slide["texts"]:
+                text = text_item["text"]
+                abbreviations = extract_abbreviations_from_text(text, medical_patterns)
+                found_abbreviations.update(abbreviations)
+
         return found_abbreviations
         # Define slide type patterns
         self.slide_type_patterns = {

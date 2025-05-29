@@ -94,7 +94,7 @@ class StoryboardGenerator:
         for abbr, definition in sorted(abbreviations.items()):
             row_cells = table.add_row().cells
             row_cells[0].text = abbr
-            row_cells[1].text = definition
+            row_cells[1].text = definition if definition else '(Not defined - please verify)'
         
         self.doc.add_page_break()
     

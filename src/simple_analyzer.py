@@ -11,6 +11,7 @@ from docx import Document
 
 from src.extractor import SimpleExtractor
 from src.medical_processor import MedicalContentProcessor
+from .utils import extract_abbreviations_from_text
 
 
 class SimpleDocumentAnalyzer:

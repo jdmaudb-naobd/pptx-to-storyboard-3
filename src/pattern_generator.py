@@ -15,6 +15,7 @@ from docx.shared import RGBColor
 from docx.enum.text import WD_COLOR_INDEX
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from src.utils import sanitize_text
 
 
 class PatternBasedGenerator:
