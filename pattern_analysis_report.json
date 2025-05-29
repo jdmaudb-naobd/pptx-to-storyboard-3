@@ -1,0 +1,49 @@
+{
+  "total_examples": 15,
+  "slide_type_transformations": {},
+  "common_omissions": {
+    "title": 46,
+    "disclosure": 8,
+    "patient_case": 78,
+    "clinical_data": 19,
+    "questions": 34,
+    "content": 41,
+    "references": 24,
+    "treatment": 86,
+    "conclusion": 7,
+    "objectives": 3
+  },
+  "combination_patterns": [],
+  "structure_patterns": {
+    "": 15
+  },
+  "chapter_templates": [],
+  "most_common_structure": [
+    [
+      [],
+      15
+    ]
+  ],
+  "most_omitted_types": [
+    [
+      "treatment",
+      86
+    ],
+    [
+      "patient_case",
+      78
+    ],
+    [
+      "title",
+      46
+    ],
+    [
+      "content",
+      41
+    ],
+    [
+      "questions",
+      34
+    ]
+  ]
+}

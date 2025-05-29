@@ -1,0 +1,3308 @@
+[
+  {
+    "file": "examples\\output\\AA\\Module 1.docx",
+    "elements": [
+      {
+        "type": "paragraph",
+        "index": 0,
+        "text": "Module 1\nAA: The importance of early diagnosis and referrals to specialized centers of care",
+        "style": "Normal",
+        "length": 91
+      },
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "question",
+        "dimensions": "24x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            ""
+          ],
+          [
+            "Meet the experts",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "index": 6,
+        "text": "Abbreviations",
+        "style": "Normal",
+        "length": 13
+      },
+      {
+        "type": "table",
+        "index": 7,
+        "table_type": "unknown",
+        "dimensions": "38x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "AD",
+            "Autosomal dominant"
+          ],
+          [
+            "ANA",
+            "Antinuclear antibodies"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 10,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 13,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Dr. Mora",
+            "[Morag picture]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 18,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 24,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 1"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "A 50-year-old patient with fatigue and repeated il",
+            "A 50-year-old patient with fatigue and repeated il"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Which of the following patients is most likely to ",
+            "Which of the following patients is most likely to "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 31,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 3"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "What is the best supportive treatment regimen for ",
+            "What is the best supportive treatment regimen for "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 35,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Box} {text} Aplastic Anemia (AA) is a rare, immun",
+            "[histology_AA]\n\n{caption} Severely hypocellular bo"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 39,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Patient assessment and common indicators"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Patient assessment and common indicat"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Patient assessment and common indicators\n{",
+            "[patient history_AA]\n\n{Caption} Patient history fa"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 43,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Inherited bone marrow failure disorders"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Inherited bone marrow failure disorde"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Inherited BMF disorders\n{text}\nBMF and cyt",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 48,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Real-world evidence: Comorbidities and age at diagnosis"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Real-world evidence: Comorbidities an"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Real-world evidence: Comorbidities and age",
+            "[Factors affecting diagnosis_1]\n\nTooltip text: Cli"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Investigations informed by guidelines",
+          "Sub-chapter: Investigations required as per BSH guidelines"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Investigations informed by guidelines",
+            "Sub-chapter: Investigations required as per BSH gu"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Investigations required as per BSH guideli",
+            "[RBCs]\n \n[baseline_icon]\n\n[virus]\n\n[genetics]\n\n[ra"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 55,
+        "table_type": "question",
+        "dimensions": "15x3",
+        "headers": [
+          "Chapter: Test your knowledge",
+          "Sub-chapter: Patient case: Roberto",
+          "Sub-chapter: Patient case: Roberto"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Test your knowledge",
+            "Sub-chapter: Patient case: Roberto",
+            "Sub-chapter: Patient case: Roberto"
+          ],
+          [
+            "Text",
+            "Text",
+            "Text"
+          ],
+          [
+            "{Title} Patient case: Roberto\n{text}, Roberto is a",
+            "{Title} Patient case: Roberto\n{text}, Roberto is a",
+            "{Title} Patient case: Roberto\n{text}, Roberto is a"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 60,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Differential diagnoses for AA",
+          "Sub-chapter: Differential diagnoses for AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Differential diagnoses for AA",
+            "Sub-chapter: Differential diagnoses for AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Differential diagnoses for AA\n{text} Diagn",
+            "[differential diagnosis]\n\n{Caption} AA in relation"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 62,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Pathogenic mechanisms of AA",
+          "Sub-chapter: Pathogenic mechanisms of AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pathogenic mechanisms of AA",
+            "Sub-chapter: Pathogenic mechanisms of AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pathogenic mechanisms of AA \n{text} AA pat",
+            "[autoimmune disease]\n\n[direct injury]\n\n[genetic_2]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: The multidisciplinary team (MDT) role in a diagnostic-driven approach"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: The multidisciplinary team (MDT) role"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} The multidisciplinary team (MDT) role in a",
+            "[MDT collaboration]\n\n{caption} MDT collaboration i"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 68,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: AA diagnostic criteria"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: AA diagnostic criteria"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} AA diagnostic criteria\n{text} The latest B",
+            "[AA_severity]\n\n{caption} AA diagnosis by severity."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 72,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Test your knowledge!",
+          "Sub-chapter: Diagnosis classification"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Test your knowledge!",
+            "Sub-chapter: Diagnosis classification"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Following a BM biopsy, another FBC and additional ",
+            "Following a BM biopsy, another FBC and additional "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 75,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: Supportive care"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: Supportive care"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Supportive care\n{text} Supportive care sho",
+            "[anti3]\n\n[irradiated_blood]\n\n[vaccination]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 78,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Summary",
+          "Sub-chapter: Summary"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Summary",
+            "Sub-chapter: Summary"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Summary\n{text}\nAplastic anemia is a rare B",
+            "[pathogenic mechanisms prism]\n\n{Caption} AA pathog"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 81,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Postassessment questions",
+          "Sub-chapter: Postassessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Postassessment questions",
+            "Sub-chapter: Postassessment question 1"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "A 50-year-old patient with fatigue and repeated il",
+            "A 50-year-old patient with fatigue and repeated il"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 86,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Postassessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Postassessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Which of the following patients is most likely to ",
+            "Which of the following patients is most likely to "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 88,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Postassessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Postassessment question 3"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "What is the best supportive treatment regimen for ",
+            "What is the best supportive treatment regimen for "
+          ]
+        ]
+      }
+    ],
+    "styles_found": [
+      "Normal"
+    ],
+    "table_count": 24,
+    "paragraph_count": 2,
+    "chapters_found": [
+      {
+        "text": "Module 1\nAA: The importance of early diagnosis and referrals to specialized centers of care",
+        "style": "Normal",
+        "index": 0
+      },
+      {
+        "text": "Abbreviations",
+        "style": "Normal",
+        "index": 6
+      }
+    ],
+    "tables_analysis": [
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "question",
+        "dimensions": "24x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            ""
+          ],
+          [
+            "Meet the experts",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 7,
+        "table_type": "unknown",
+        "dimensions": "38x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "AD",
+            "Autosomal dominant"
+          ],
+          [
+            "ANA",
+            "Antinuclear antibodies"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 10,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 13,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Dr. Mora",
+            "[Morag picture]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 18,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 24,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 1"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "A 50-year-old patient with fatigue and repeated il",
+            "A 50-year-old patient with fatigue and repeated il"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Which of the following patients is most likely to ",
+            "Which of the following patients is most likely to "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 31,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Preassessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Preassessment question 3"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "What is the best supportive treatment regimen for ",
+            "What is the best supportive treatment regimen for "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 35,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Box} {text} Aplastic Anemia (AA) is a rare, immun",
+            "[histology_AA]\n\n{caption} Severely hypocellular bo"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 39,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Patient assessment and common indicators"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Patient assessment and common indicat"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Patient assessment and common indicators\n{",
+            "[patient history_AA]\n\n{Caption} Patient history fa"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 43,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Inherited bone marrow failure disorders"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Inherited bone marrow failure disorde"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Inherited BMF disorders\n{text}\nBMF and cyt",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 48,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Considerations in diagnosis of AA",
+          "Sub-chapter: Real-world evidence: Comorbidities and age at diagnosis"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Considerations in diagnosis of AA",
+            "Sub-chapter: Real-world evidence: Comorbidities an"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Real-world evidence: Comorbidities and age",
+            "[Factors affecting diagnosis_1]\n\nTooltip text: Cli"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Investigations informed by guidelines",
+          "Sub-chapter: Investigations required as per BSH guidelines"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Investigations informed by guidelines",
+            "Sub-chapter: Investigations required as per BSH gu"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Investigations required as per BSH guideli",
+            "[RBCs]\n \n[baseline_icon]\n\n[virus]\n\n[genetics]\n\n[ra"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 55,
+        "table_type": "question",
+        "dimensions": "15x3",
+        "headers": [
+          "Chapter: Test your knowledge",
+          "Sub-chapter: Patient case: Roberto",
+          "Sub-chapter: Patient case: Roberto"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Test your knowledge",
+            "Sub-chapter: Patient case: Roberto",
+            "Sub-chapter: Patient case: Roberto"
+          ],
+          [
+            "Text",
+            "Text",
+            "Text"
+          ],
+          [
+            "{Title} Patient case: Roberto\n{text}, Roberto is a",
+            "{Title} Patient case: Roberto\n{text}, Roberto is a",
+            "{Title} Patient case: Roberto\n{text}, Roberto is a"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 60,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Differential diagnoses for AA",
+          "Sub-chapter: Differential diagnoses for AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Differential diagnoses for AA",
+            "Sub-chapter: Differential diagnoses for AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Differential diagnoses for AA\n{text} Diagn",
+            "[differential diagnosis]\n\n{Caption} AA in relation"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 62,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Pathogenic mechanisms of AA",
+          "Sub-chapter: Pathogenic mechanisms of AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pathogenic mechanisms of AA",
+            "Sub-chapter: Pathogenic mechanisms of AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pathogenic mechanisms of AA \n{text} AA pat",
+            "[autoimmune disease]\n\n[direct injury]\n\n[genetic_2]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: The multidisciplinary team (MDT) role in a diagnostic-driven approach"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: The multidisciplinary team (MDT) role"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} The multidisciplinary team (MDT) role in a",
+            "[MDT collaboration]\n\n{caption} MDT collaboration i"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 68,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: AA diagnostic criteria"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: AA diagnostic criteria"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} AA diagnostic criteria\n{text} The latest B",
+            "[AA_severity]\n\n{caption} AA diagnosis by severity."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 72,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Test your knowledge!",
+          "Sub-chapter: Diagnosis classification"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Test your knowledge!",
+            "Sub-chapter: Diagnosis classification"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Following a BM biopsy, another FBC and additional ",
+            "Following a BM biopsy, another FBC and additional "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 75,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Reaching a diagnosis",
+          "Sub-chapter: Supportive care"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Reaching a diagnosis",
+            "Sub-chapter: Supportive care"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Supportive care\n{text} Supportive care sho",
+            "[anti3]\n\n[irradiated_blood]\n\n[vaccination]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 78,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Summary",
+          "Sub-chapter: Summary"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Summary",
+            "Sub-chapter: Summary"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Summary\n{text}\nAplastic anemia is a rare B",
+            "[pathogenic mechanisms prism]\n\n{Caption} AA pathog"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 81,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Postassessment questions",
+          "Sub-chapter: Postassessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Postassessment questions",
+            "Sub-chapter: Postassessment question 1"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "A 50-year-old patient with fatigue and repeated il",
+            "A 50-year-old patient with fatigue and repeated il"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 86,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Postassessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Postassessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Which of the following patients is most likely to ",
+            "Which of the following patients is most likely to "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 88,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Preassessment questions",
+          "Sub-chapter: Postassessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Preassessment questions",
+            "Sub-chapter: Postassessment question 3"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "What is the best supportive treatment regimen for ",
+            "What is the best supportive treatment regimen for "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "examples\\output\\AA\\Module 2.docx",
+    "elements": [
+      {
+        "type": "paragraph",
+        "index": 0,
+        "text": "Module 2\nCurrent treatment options for AA: benefits and potential complications",
+        "style": "Normal",
+        "length": 79
+      },
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "question",
+        "dimensions": "19x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            ""
+          ],
+          [
+            "Meet the experts",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "index": 9,
+        "text": "Abbreviations",
+        "style": "Normal",
+        "length": 13
+      },
+      {
+        "type": "table",
+        "index": 10,
+        "table_type": "unknown",
+        "dimensions": "33x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "ATG",
+            "Antithymocyte globulin"
+          ],
+          [
+            "BM",
+            "Bone marrow"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 14,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 19,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Prof. R\u00e9",
+            "[Regis picture]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 23,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 25,
+        "table_type": "question",
+        "dimensions": "8x3",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 1",
+          "Sub-chapter: Pre-assessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 1",
+            "Sub-chapter: Pre-assessment question 1"
+          ],
+          [
+            "",
+            "Graphic/Animation/Video",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Thanh refused vaccinations during the diagnosis st",
+            "Thanh refused vaccinations during the diagnosis st"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 35,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 3"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "Despite the situation, Thanh\u2019s HLA-matched sister ",
+            "Despite the situation, Thanh\u2019s HLA-matched sister "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 44,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Treating Aplastic Anemia (AA)\n{text} The t",
+            "[guidelines_treatment]\n{Caption}British Society of"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 47,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: When to initiate treatment",
+          "Sub-chapter: When to initiate treatment"
+        ],
+        "sample_data": [
+          [
+            "Chapter: When to initiate treatment",
+            "Sub-chapter: When to initiate treatment"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} When to initiate treatment\n{text 1} The de",
+            "[When to treat]\n\n{Caption} Treatment initiation de"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Indications for HSCT",
+          "Sub-chapter: HLA-matched sibling bone marrow transplantation"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Indications for HSCT",
+            "Sub-chapter: HLA-matched sibling bone marrow trans"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} HLA-matched sibling bone marrow transplant",
+            "[Treatment_guidelines_sibling_HSCT]\n\n\n{Caption} Fo"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 54,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Indications for HSCT",
+          "Sub-chapter: Alternate up-front and second-line indications for HSCT"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Indications for HSCT",
+            "Sub-chapter: Alternate up-front and second-line in"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{text 1} If a patient with SAA/VSAA does not have ",
+            "[Regis_matched unrelated donor transplant]\n\n{Capti"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 57,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: In module question",
+          "Sub-chapter: In module question"
+        ],
+        "sample_data": [
+          [
+            "Chapter: In module question",
+            "Sub-chapter: In module question"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Match the patient with the best course of treatmen",
+            "Match the patient with the best course of treatmen"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 63,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Immunosuppressive therapy",
+          "Sub-chapter: IST: standard of care and how to improve immunosuppression"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Immunosuppressive therapy",
+            "Sub-chapter: IST: standard of care and how to impr"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title 1} IST: Standard of care and how to improve",
+            "[Alterations to IST]\n\n{Caption} Enhancements and m"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Treating refractory patients",
+          "Sub-chapter: Treating refractory patients"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Treating refractory patients",
+            "Sub-chapter: Treating refractory patients"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Treating refractory patients\n{text} In the",
+            "[Cord blood transplantation]\n\n{Caption} Ph2 study "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 74,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Summary",
+          "Sub-chapter: Summary"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Summary",
+            "Sub-chapter: Summary"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title1} Summary\n{title 2} First-Line Treatment:\n{",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 79,
+        "table_type": "question",
+        "dimensions": "14x3",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 1",
+          "Sub-chapter: Post-assessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 1",
+            "Sub-chapter: Post-assessment question 1"
+          ],
+          [
+            "",
+            "Graphic/Animation/Video",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 84,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Thanh refused vaccinations during the diagnosis st",
+            "Thanh refused vaccinations during the diagnosis st"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 104,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 3"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "Despite the situation, Thanh\u2019s HLA-matched sister ",
+            "Despite the situation, Thanh\u2019s HLA-matched sister "
+          ]
+        ]
+      }
+    ],
+    "styles_found": [
+      "Normal"
+    ],
+    "table_count": 19,
+    "paragraph_count": 2,
+    "chapters_found": [
+      {
+        "text": "Module 2\nCurrent treatment options for AA: benefits and potential complications",
+        "style": "Normal",
+        "index": 0
+      },
+      {
+        "text": "Abbreviations",
+        "style": "Normal",
+        "index": 9
+      }
+    ],
+    "tables_analysis": [
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "question",
+        "dimensions": "19x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            ""
+          ],
+          [
+            "Meet the experts",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 10,
+        "table_type": "unknown",
+        "dimensions": "33x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "ATG",
+            "Antithymocyte globulin"
+          ],
+          [
+            "BM",
+            "Bone marrow"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 14,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 19,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Prof. R\u00e9",
+            "[Regis picture]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 23,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 25,
+        "table_type": "question",
+        "dimensions": "8x3",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 1",
+          "Sub-chapter: Pre-assessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 1",
+            "Sub-chapter: Pre-assessment question 1"
+          ],
+          [
+            "",
+            "Graphic/Animation/Video",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Thanh refused vaccinations during the diagnosis st",
+            "Thanh refused vaccinations during the diagnosis st"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 35,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Pre-assessment questions",
+          "Sub-chapter: Pre-assessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Pre-assessment questions",
+            "Sub-chapter: Pre-assessment question 3"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "Despite the situation, Thanh\u2019s HLA-matched sister ",
+            "Despite the situation, Thanh\u2019s HLA-matched sister "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 44,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Treating Aplastic Anemia (AA)\n{text} The t",
+            "[guidelines_treatment]\n{Caption}British Society of"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 47,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: When to initiate treatment",
+          "Sub-chapter: When to initiate treatment"
+        ],
+        "sample_data": [
+          [
+            "Chapter: When to initiate treatment",
+            "Sub-chapter: When to initiate treatment"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} When to initiate treatment\n{text 1} The de",
+            "[When to treat]\n\n{Caption} Treatment initiation de"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Indications for HSCT",
+          "Sub-chapter: HLA-matched sibling bone marrow transplantation"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Indications for HSCT",
+            "Sub-chapter: HLA-matched sibling bone marrow trans"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} HLA-matched sibling bone marrow transplant",
+            "[Treatment_guidelines_sibling_HSCT]\n\n\n{Caption} Fo"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 54,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Indications for HSCT",
+          "Sub-chapter: Alternate up-front and second-line indications for HSCT"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Indications for HSCT",
+            "Sub-chapter: Alternate up-front and second-line in"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{text 1} If a patient with SAA/VSAA does not have ",
+            "[Regis_matched unrelated donor transplant]\n\n{Capti"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 57,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: In module question",
+          "Sub-chapter: In module question"
+        ],
+        "sample_data": [
+          [
+            "Chapter: In module question",
+            "Sub-chapter: In module question"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Match the patient with the best course of treatmen",
+            "Match the patient with the best course of treatmen"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 63,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Immunosuppressive therapy",
+          "Sub-chapter: IST: standard of care and how to improve immunosuppression"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Immunosuppressive therapy",
+            "Sub-chapter: IST: standard of care and how to impr"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title 1} IST: Standard of care and how to improve",
+            "[Alterations to IST]\n\n{Caption} Enhancements and m"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Treating refractory patients",
+          "Sub-chapter: Treating refractory patients"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Treating refractory patients",
+            "Sub-chapter: Treating refractory patients"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Treating refractory patients\n{text} In the",
+            "[Cord blood transplantation]\n\n{Caption} Ph2 study "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 74,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Summary",
+          "Sub-chapter: Summary"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Summary",
+            "Sub-chapter: Summary"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title1} Summary\n{title 2} First-Line Treatment:\n{",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 79,
+        "table_type": "question",
+        "dimensions": "14x3",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 1",
+          "Sub-chapter: Post-assessment question 1"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 1",
+            "Sub-chapter: Post-assessment question 1"
+          ],
+          [
+            "",
+            "Graphic/Animation/Video",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co",
+            "[thanh_profile_1]\n  \n{Caption} Meet Thanh. CBC, co"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 84,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 2"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 2"
+          ],
+          [
+            "Text",
+            "Text"
+          ],
+          [
+            "Thanh refused vaccinations during the diagnosis st",
+            "Thanh refused vaccinations during the diagnosis st"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 104,
+        "table_type": "question",
+        "dimensions": "5x2",
+        "headers": [
+          "Chapter: Post-assessment questions",
+          "Sub-chapter: Post-assessment question 3"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Post-assessment questions",
+            "Sub-chapter: Post-assessment question 3"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "Despite the situation, Thanh\u2019s HLA-matched sister ",
+            "Despite the situation, Thanh\u2019s HLA-matched sister "
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "examples\\output\\AA\\Module 3.docx",
+    "elements": [
+      {
+        "type": "paragraph",
+        "index": 0,
+        "text": "Module 3\nClinical approaches for managing special patient subgroups and challenging cases",
+        "style": "Normal",
+        "length": 89
+      },
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "unknown",
+        "dimensions": "23x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            "Welcome"
+          ],
+          [
+            "Meet the expert",
+            "Meet the expert"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "index": 5,
+        "text": "Abbreviations",
+        "style": "Normal",
+        "length": 13
+      },
+      {
+        "type": "table",
+        "index": 6,
+        "table_type": "unknown",
+        "dimensions": "19x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "AML",
+            "Acute myeloid leukemia"
+          ],
+          [
+            "ATG",
+            "Antithymocyte globulin"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 12,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 16,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Dr. Aust",
+            "[Austin picture]\n\n\n[AK bio video]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 20,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 23,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Clinical approaches for managing special p",
+            "[adolescent icon]\n\n[non severe icon]\n\n[pregnant ic"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 25,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Introduction: AA in pediatric/adolescent patients"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Introduction: AA in pediatric/adolesc"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pediatric/adolescent patient case: Luka\n\n{",
+            "[AK ped case intro]\n\n[luka case]\n\n \n{Caption} Luka"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Following Luka\u2019s case in practice"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Following Luka\u2019s case in practice"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Following Luka\u2019s case in practice\n\n{Text} ",
+            "[luka progression]\n{Caption} Luka\u2019s progression. A"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 31,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Platelet response to eltrombopag therapy"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Platelet response to eltrombopag ther"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Platelet response to eltrombopag therapy\n\n",
+            "[luka platelet response]\n \n{Caption} Luka\u2019s platel"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 33,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Introduction: non-severe AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Introduction: non-severe AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Introduction: non-severe AA\n\n{Question tex",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 37,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Non-severe AA case: Nadia"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Non-severe AA case: Nadia"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Non-severe AA case: Nadia\n{text 1} Nadia h",
+            "[Nadia case]\n\n\n{Caption} Nadia\u2019s case details. *BS"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 39,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Non-severe AA case: Joanna"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Non-severe AA case: Joanna"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Non-severe AA case: Joanna\n\n{text 1} Joann",
+            "[Joanna case]\n \n{Caption} Joanna\u2019s case details. *"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 42,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: International treatment patterns in NSAA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: International treatment patterns in N"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} International treatment patterns in NSAA\n\n",
+            "[NSAA treatment response charts]\n\n{Caption} Respon"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 46,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text} Treatment of NSAA shoul",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Introduction: Pregnancy and AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Introduction: Pregnancy and AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pregnancy and AA case: Sasha\n\n{text 1} Man",
+            "[AK Sasha case intro]\n\n[Sasha case]\n\n{Caption} Sas"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 53,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Sasha: post-partum care"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Sasha: post-partum care"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} 4 months post-partum\n\n{text1} Sasha delive",
+            "[Sasha 4mo postpartum]\n \n{Caption} Sasha\u2019s blood c"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 56,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Maternal and fetal outcomes in pregnancy and AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Maternal and fetal outcomes in pregna"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Maternal and fetal outcomes in pregnancy a",
+            "[pregnancy in AA study]\n \nKey findings, risk facto"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 58,
+        "table_type": "question",
+        "dimensions": "12x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text1} Conclusion\nEffective m",
+            "[Sasha case]\n\n{Caption} Sasha\u2019s case details. BM, "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Introduction: elderly patients with AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Introduction: elderly patients with A"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Introduction: elderly patient case\n\n{text1",
+            "[AK elderly intro]\n\n[Elderly case_history]\n \n\n{Cap"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 69,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Managing elderly patients (> 60 years of age)"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Managing elderly patients (> 60 years"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Managing elderly patients (> 60 years of a",
+            "[choice]\n\n\n[options]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 71,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Recent insights and conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Recent insights and conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Recent insights\n{tabs element 1: Treatment",
+            "[treatment algorithm for elderly]\n\n{Caption} Treat"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 74,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Case homepage",
+          "Sub-chapter: Case homepage"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Case homepage",
+            "Sub-chapter: Case homepage"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Clinical approaches for managing special p",
+            "[adolescent icon]\n\n\n[non severe icon]\n\n[pregnant i"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 76,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Conclusion",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Conclusion",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text 1}\nEffective management ",
+            "[AK conclusion and thankyou]"
+          ]
+        ]
+      }
+    ],
+    "styles_found": [
+      "Normal"
+    ],
+    "table_count": 23,
+    "paragraph_count": 2,
+    "chapters_found": [
+      {
+        "text": "Module 3\nClinical approaches for managing special patient subgroups and challenging cases",
+        "style": "Normal",
+        "index": 0
+      },
+      {
+        "text": "Abbreviations",
+        "style": "Normal",
+        "index": 5
+      }
+    ],
+    "tables_analysis": [
+      {
+        "type": "table",
+        "index": 1,
+        "table_type": "unknown",
+        "dimensions": "23x2",
+        "headers": [
+          "Chapters",
+          "Subchapters"
+        ],
+        "sample_data": [
+          [
+            "Chapters",
+            "Subchapters"
+          ],
+          [
+            "Welcome",
+            "Welcome"
+          ],
+          [
+            "Meet the expert",
+            "Meet the expert"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 6,
+        "table_type": "unknown",
+        "dimensions": "19x2",
+        "headers": [
+          "Abbreviation",
+          "Definition"
+        ],
+        "sample_data": [
+          [
+            "Abbreviation",
+            "Definition"
+          ],
+          [
+            "AML",
+            "Acute myeloid leukemia"
+          ],
+          [
+            "ATG",
+            "Antithymocyte globulin"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 12,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Welcome",
+          "Sub-chapter: Welcome"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Welcome",
+            "Sub-chapter: Welcome"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Welcome\n{1} Welcome to this interactive m",
+            "[AA 2024 branding]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 16,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Meet the expert",
+          "Sub-chapter: Meet the expert"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Meet the expert",
+            "Sub-chapter: Meet the expert"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title}: Meet the expert\n{Balloon Title}: Dr. Aust",
+            "[Austin picture]\n\n\n[AK bio video]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 20,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Learning objectives",
+          "Sub-chapter: Learning objectives"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Learning objectives",
+            "Sub-chapter: Learning objectives"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Learning objectives\n\n{Text} After completi",
+            "Suggest PM to decide how to make this look visual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 23,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Introduction",
+          "Sub-chapter: Introduction"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Introduction",
+            "Sub-chapter: Introduction"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Clinical approaches for managing special p",
+            "[adolescent icon]\n\n[non severe icon]\n\n[pregnant ic"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 25,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Introduction: AA in pediatric/adolescent patients"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Introduction: AA in pediatric/adolesc"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pediatric/adolescent patient case: Luka\n\n{",
+            "[AK ped case intro]\n\n[luka case]\n\n \n{Caption} Luka"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 29,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Following Luka\u2019s case in practice"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Following Luka\u2019s case in practice"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Following Luka\u2019s case in practice\n\n{Text} ",
+            "[luka progression]\n{Caption} Luka\u2019s progression. A"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 31,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pediatric/adolescent patients with AA",
+          "Sub-chapter: Platelet response to eltrombopag therapy"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pediatric/adolescent patients wi",
+            "Sub-chapter: Platelet response to eltrombopag ther"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Platelet response to eltrombopag therapy\n\n",
+            "[luka platelet response]\n \n{Caption} Luka\u2019s platel"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 33,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Introduction: non-severe AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Introduction: non-severe AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Introduction: non-severe AA\n\n{Question tex",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 37,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Non-severe AA case: Nadia"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Non-severe AA case: Nadia"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Non-severe AA case: Nadia\n{text 1} Nadia h",
+            "[Nadia case]\n\n\n{Caption} Nadia\u2019s case details. *BS"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 39,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Non-severe AA case: Joanna"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Non-severe AA case: Joanna"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Non-severe AA case: Joanna\n\n{text 1} Joann",
+            "[Joanna case]\n \n{Caption} Joanna\u2019s case details. *"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 42,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: International treatment patterns in NSAA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: International treatment patterns in N"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} International treatment patterns in NSAA\n\n",
+            "[NSAA treatment response charts]\n\n{Caption} Respon"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 46,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing non-severe AA",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing non-severe AA",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text} Treatment of NSAA shoul",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 51,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Introduction: Pregnancy and AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Introduction: Pregnancy and AA"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Pregnancy and AA case: Sasha\n\n{text 1} Man",
+            "[AK Sasha case intro]\n\n[Sasha case]\n\n{Caption} Sas"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 53,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Sasha: post-partum care"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Sasha: post-partum care"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} 4 months post-partum\n\n{text1} Sasha delive",
+            "[Sasha 4mo postpartum]\n \n{Caption} Sasha\u2019s blood c"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 56,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Maternal and fetal outcomes in pregnancy and AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Maternal and fetal outcomes in pregna"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Maternal and fetal outcomes in pregnancy a",
+            "[pregnancy in AA study]\n \nKey findings, risk facto"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 58,
+        "table_type": "question",
+        "dimensions": "12x2",
+        "headers": [
+          "Chapter: Managing pregnancy and AA",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing pregnancy and AA",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text1} Conclusion\nEffective m",
+            "[Sasha case]\n\n{Caption} Sasha\u2019s case details. BM, "
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 66,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Introduction: elderly patients with AA"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Introduction: elderly patients with A"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Introduction: elderly patient case\n\n{text1",
+            "[AK elderly intro]\n\n[Elderly case_history]\n \n\n{Cap"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 69,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Managing elderly patients (> 60 years of age)"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Managing elderly patients (> 60 years"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Managing elderly patients (> 60 years of a",
+            "[choice]\n\n\n[options]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 71,
+        "table_type": "question",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Managing elderly patients with AA",
+          "Sub-chapter: Recent insights and conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Managing elderly patients with AA",
+            "Sub-chapter: Recent insights and conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{title} Recent insights\n{tabs element 1: Treatment",
+            "[treatment algorithm for elderly]\n\n{Caption} Treat"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 74,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Case homepage",
+          "Sub-chapter: Case homepage"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Case homepage",
+            "Sub-chapter: Case homepage"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Clinical approaches for managing special p",
+            "[adolescent icon]\n\n\n[non severe icon]\n\n[pregnant i"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "index": 76,
+        "table_type": "references",
+        "dimensions": "11x2",
+        "headers": [
+          "Chapter: Conclusion",
+          "Sub-chapter: Conclusion"
+        ],
+        "sample_data": [
+          [
+            "Chapter: Conclusion",
+            "Sub-chapter: Conclusion"
+          ],
+          [
+            "Text",
+            "Graphic/Animation/Video"
+          ],
+          [
+            "{Title} Conclusion\n\n{text 1}\nEffective management ",
+            "[AK conclusion and thankyou]"
+          ]
+        ]
+      }
+    ]
+  }
+]

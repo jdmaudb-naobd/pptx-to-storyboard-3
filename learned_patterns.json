@@ -1,0 +1,60 @@
+{
+  "transformation_rules": {
+    "omit_slide_types": [
+      "disclosure",
+      "title",
+      "references"
+    ],
+    "combine_slide_types": [
+      "content",
+      "patient_case",
+      "clinical_data"
+    ],
+    "avg_slides_per_segment": 2.5,
+    "slide_type_priority": {
+      "objectives": "always_include",
+      "patient_case": "combine_with_content",
+      "clinical_data": "combine_with_treatment",
+      "treatment": "important",
+      "conclusion": "always_include",
+      "questions": "transform_to_assessment"
+    }
+  },
+  "structure_template": {
+    "common_chapters": [
+      "Welcome",
+      "Meet the experts",
+      "Learning objectives",
+      "Pre-assessment questions",
+      "Introduction",
+      "Patient Case",
+      "Clinical Evidence",
+      "Treatment Options",
+      "Key Takeaways",
+      "Summary",
+      "Post-assessment questions",
+      "Thank you"
+    ],
+    "standard_sequence": [
+      "Welcome",
+      "Meet the experts",
+      "Learning objectives",
+      "Pre-assessment questions",
+      "Introduction",
+      "Main Content",
+      "Summary",
+      "Post-assessment questions",
+      "Thank you"
+    ]
+  },
+  "statistics": {
+    "avg_slide_count": 35,
+    "avg_chapters": 9,
+    "avg_segments_per_chapter": 3
+  },
+  "content_rules": {
+    "bullet_threshold": 3,
+    "combine_threshold": 100,
+    "split_threshold": 500
+  }
+}
